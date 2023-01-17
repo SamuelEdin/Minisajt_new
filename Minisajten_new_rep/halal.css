@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans:ital,wght@1,600&family=Mukta:wght@300&family=Unbounded&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 header,
 footer {
   width: 100%;
@@ -15,7 +19,11 @@ footer {
 .fotare {
   position: relative;
   bottom: 0;
-  height: 20vh;
+}
+
+#footer-id {
+  position: absolute;
+  bottom: 0;
 }
 
 body {
@@ -80,7 +88,7 @@ body {
 
 .hem {
   top: 15px;
-  right: 120px;
+  right: 95px;
   width: 90px;
 }
 
@@ -117,10 +125,16 @@ body {
   height: 300px;
   width: 400px;
   background-color: #dd5353;
-  position: fixed;
+  position: relative;
   top: 25%;
   left: 37%;
   border: 3px solid #b73e3e;
+  margin: 50px 0px 50px;
+}
+
+#login-hem {
+  top: 15px;
+  right: 15px;
 }
 
 form {
@@ -134,9 +148,10 @@ input {
   margin-top: 10px;
   border: 3px solid #b73e3e;
   font-size: 15px;
-  font-family: "Unbounded";
+  font-family: "Mukta", sans-serif;
   height: 30px;
   display: inline-block;
+  border-radius: 7px;
 }
 
 label {
@@ -146,9 +161,33 @@ label {
   margin-top: 5px;
 }
 
+.button {
+  height: 30px;
+  width: 70px;
+  font-family: "Mukta", sans-serif;
+  background-color: #fffcf9;
+  align-items: center;
+  border-radius: 4px 4px;
+  transition-duration: 0.3s;
+  border: 1px solid #fffcf9;
+  text-decoration: none;
+  color: black;
+  padding: 3px;
+  position: relative;
+  top: 15px;
+}
+
+.button:hover {
+  background-color: #dd5353;
+  color: #fffcf9;
+  text-decoration: none;
+}
+
 .fa-solid {
   color: #fffcf9;
   font-size: 30px;
+  position: relative;
+  top: 5px;
 }
 
 .cirkel-div {
@@ -200,6 +239,7 @@ label {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 100px 0px 200px;
 }
 
 .rubriken {
@@ -238,6 +278,7 @@ li {
   color: black;
   font-size: 20px;
   margin-top: 30px;
+  text-decoration: none;
 }
 
 .recept-div {
@@ -265,4 +306,13 @@ li {
   top: 5px;
   left: 10px;
   border: 3px solid black;
+}
+
+.till-topp {
+  font-family: "Mukta", sans-serif;
+  color: black;
+  text-decoration: none;
+  margin-left: 500px;
+  margin-top: 10px;
+  display: block;
 }

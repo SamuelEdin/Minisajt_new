@@ -12,7 +12,7 @@
     <title>Matrecept</title>
   </head>
   <body>
-    <header class="huvudare">
+    <header id="toppen" class="huvudare">
       <div id="logo">
         <p id="logo-text">&nbsp;&nbsp;Matrecept</p>
         <p id="slogan">Recept för alla brorsor</p>
@@ -20,18 +20,18 @@
       <a class="login-div hem" href="hem.html">
         <p class="login-text">Startsida</p>
       </a>
-      <a id="login-div" href="login.html">
-        <p id="login-text">Login</p>
+      <a class="login-div" href="login.html">
+        <p class="login-text">Login</p>
       </a>
     </header>
     <div id="innehållsförteckning">
       <h1 class="rubriken">Innehåll</h1>
-      <a id="innehåll-item">➡ Lasagne ⬅</a>
-      <a id="innehåll-item">➡ Pommes Frites ⬅</a>
-      <a id="innehåll-item">➡ Tikka Masala ⬅</a>
+      <a href="#recept1" id="innehåll-item">➡ Lasagne ⬅</a>
+      <a href="#recept2" id="innehåll-item">➡ Pommes Frites ⬅</a>
+      <a href="#recept3" id="innehåll-item">➡ Nasi Goreng ⬅</a>
     </div>
 
-    <div class="recept-div">
+    <div id="recept1" class="recept-div">
       <div class="recept-child-div">
         <h1 class="rubriken">Lasagne</h1>
         <h2 class="rubriken">
@@ -63,10 +63,6 @@
           <li>Ett antal lasagneplattor</li>
           <li>Mer parmesanost</li>
         </ul>
-        <h3 class="rubriken">Serveras med:</h3>
-        <ul>
-          <li>Vad fan du vill</li>
-        </ul>
       </div>
       <div class="recept-child-div">
         <h2 class="rubriken">Gör så här</h2>
@@ -97,10 +93,11 @@
         <br />
         <p class=".p-intrukt">⭐Smaklig måltid din jävel⭐</p>
         <img src="big_lasagna.jpg" alt="Big Ass Lasagna" class="recept-bild" />
+        <a class="till-topp" href="#toppen">Till toppen ⬆</a>
       </div>
     </div>
 
-    <div class="recept-div">
+    <div id="recept2" class="recept-div">
       <div class="recept-child-div">
         <h1 class="rubriken">Pommes Frites</h1>
         <h2 class="rubriken">Ingredienser <br /></h2>
@@ -162,10 +159,11 @@
         <br />
         <p class=".p-intrukt">⭐Smaklig måltid din jävel⭐</p>
         <img src="fries.jpg" alt="Pommus dippus" class="recept-bild" />
+        <a class="till-topp" href="#toppen">Till toppen ⬆</a>
       </div>
     </div>
 
-    <div class="recept-div">
+    <div id="recept3" class="recept-div">
       <div class="recept-child-div">
         <h1 class="rubriken">Nasi Goreng</h1>
         <h2 class="rubriken">Ingredienser <br />4 port</h2>
@@ -226,6 +224,7 @@
         <br />
         <p class=".p-intrukt">⭐Smaklig måltid din jävel⭐</p>
         <img src="nasi_goreng.jpg" alt="warra warra" class="recept-bild" />
+        <a class="till-topp" href="#toppen">Till toppen ⬆</a>
       </div>
     </div>
 

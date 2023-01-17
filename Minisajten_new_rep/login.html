@@ -17,7 +17,7 @@
         <p id="logo-text">Halal Recept</p>
         <p id="slogan">Recept för alla brorsor</p>
       </div>
-      <a class="login-div hem" href="hem.html">
+      <a class="login-div hem" id="login-hem" href="hem.html">
         <p class="login-text">Startsida</p>
       </a>
     </header>
@@ -36,17 +36,17 @@
         <label for="email">
           <i class="fa-solid fa-envelope"></i>
         </label>
-        <input id="email" type="email" required placeholder="Email" />
+        <input id="email" type="email" required placeholder="Epost" />
         <br />
         <label for="pass">
           <i class="fa-solid fa-lock"></i>
         </label>
         <input id="pass" type="password" required placeholder="Lösenord" />
         <br />
-        <input type="submit" />
+        <a class="button" type="submit" href="hem.html">Logga In</a>
       </form>
     </div>
-    <footer class="fotare">
+    <footer class="fotare" id="footer-id">
       <div id="kontakt-div">
         <h6 class="kontakt-text">
           Kontakta inte oss s<br />
