@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans:ital,wght@1,600&family=Mukta:wght@300&family=Unbounded&display=swap");
+
+header,
+footer {
+  width: 100%;
+  height: 20vh;
+  background-color: #dd5353;
+  position: relative;
+}
+
+.huvudare {
+  border-bottom: 3px solid #b73e3e;
+}
+
+.fotare {
+  position: relative;
+  bottom: 0;
+  height: 20vh;
+}
+
+body {
+  background-color: #fffcf9;
+  margin: 0;
+}
+
+#logo {
+  background-color: #fffcf9;
+  height: 120px;
+  width: 20%;
+  border: 3px solid #b73e3e;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  border-radius: 8px 8px;
+}
+
+#logo-text {
+  font-size: 36px;
+  font-family: "Unbounded", cursive;
+  align-self: center;
+  margin-left: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+#slogan {
+  font-size: 12px;
+  font-family: "Unbounded", cursive;
+  position: relative;
+  bottom: 25px;
+  left: 70px;
+}
+
+.login-div {
+  background-color: #fffcf9;
+  height: 40px;
+  width: 60px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  align-items: center;
+  border-radius: 4px 4px;
+  transition-duration: 0.3s;
+  border: 1px solid #fffcf9;
+  text-decoration: none;
+  color: black;
+}
+
+.login-div:hover {
+  background-color: #dd5353;
+  color: #fffcf9;
+  text-decoration: none;
+}
+
+.login-text {
+  font-family: "Unbounded", cursive;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.hem {
+  top: 15px;
+  right: 120px;
+  width: 90px;
+}
+
+#ikon-div {
+  height: 40px;
+  width: 200px;
+  position: absolute;
+  right: 30px;
+  top: 60px;
+}
+
+.fa-brands {
+  color: #fffcf9;
+  margin-right: 30px;
+  font-size: 30px;
+}
+
+#kontakt-div {
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  left: 50px;
+}
+
+.kontakt-text {
+  font-family: "Unbounded", cursive;
+  font-size: 12px;
+}
+
+#login-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 400px;
+  background-color: #dd5353;
+  position: fixed;
+  top: 25%;
+  left: 37%;
+  border: 3px solid #b73e3e;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  border: 3px solid #b73e3e;
+  font-size: 15px;
+  font-family: "Unbounded";
+  height: 30px;
+  display: inline-block;
+}
+
+label {
+  display: inline-block;
+  width: 60px;
+  color: #fffcf9;
+  margin-top: 5px;
+}
+
+.fa-solid {
+  color: #fffcf9;
+  font-size: 30px;
+}
+
+.cirkel-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.cirkel {
+  background-color: #dd5353;
+  height: 200px;
+  width: 200px;
+  border: 3px solid #dd5353;
+  border-radius: 200px 200px;
+  margin: 50px;
+  margin-top: 50px;
+}
+
+.mat-text {
+  font-size: 20px;
+  font-family: "Unbounded";
+  position: absolute;
+  left: 700px;
+}
+
+#matlagning {
+  left: 545px;
+}
+
+#bakning {
+  left: 875px;
+}
+
+#food {
+  height: 100%;
+  width: 100%;
+  border-radius: 200px 200px;
+}
+
+#innehållsförteckning {
+  border: 3px solid black;
+  width: 30%;
+  height: 300px;
+  position: relative;
+  left: 35%;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rubriken {
+  font-family: "Mukta", sans-serif;
+  margin-left: 15px;
+}
+
+h1 {
+  font-size: 33px;
+  margin: 15px;
+  color: #b73e3e;
+}
+
+h2 {
+  font-size: 22px;
+  color: #b73e3e;
+}
+
+h3 {
+  font-size: 18px;
+  color: black;
+}
+
+li {
+  margin-top: 5px;
+  font-family: "Mukta", sans-serif;
+}
+
+.p-intrukt {
+  font-family: "Mukta", sans-serif;
+  margin-left: 15px;
+}
+
+#innehåll-item {
+  font-family: "Mukta", sans-serif;
+  color: black;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.recept-div {
+  width: 80%;
+  height: auto;
+  border: 1px solid #b73e3e;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f8d1d1;
+  border-radius: 25px;
+}
+
+.recept-child-div {
+  margin: 5px;
+  margin-left: 160px;
+  padding: 20px;
+}
+
+.recept-bild {
+  width: 90%;
+  position: relative;
+  top: 5px;
+  left: 10px;
+  border: 3px solid black;
+}
