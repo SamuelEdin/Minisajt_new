@@ -4,6 +4,13 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #fffcf9;
+  margin: 0;
+}
+
+/* Header */
+
 header,
 footer {
   width: 100%;
@@ -24,11 +31,6 @@ footer {
 #footer-id {
   position: absolute;
   bottom: 0;
-}
-
-body {
-  background-color: #fffcf9;
-  margin: 0;
 }
 
 #logo {
@@ -86,6 +88,8 @@ body {
   margin-left: 10px;
 }
 
+/* Footer */
+
 .hem {
   top: 15px;
   right: 95px;
@@ -117,6 +121,49 @@ body {
   font-family: "Unbounded", cursive;
   font-size: 12px;
 }
+
+/* Cirklar med mat - mainsida */
+
+.cirkel-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.cirkel {
+  background-color: #dd5353;
+  height: 200px;
+  width: 200px;
+  border: 3px solid #dd5353;
+  border-radius: 200px 200px;
+  margin: 50px;
+  margin-top: 50px;
+}
+
+.mat-text {
+  font-size: 20px;
+  font-family: "Unbounded";
+  position: absolute;
+  left: 700px;
+}
+
+#matlagning {
+  left: 545px;
+}
+
+#bakning {
+  left: 875px;
+}
+
+#food {
+  height: 100%;
+  width: 100%;
+  border-radius: 200px 200px;
+}
+
+/* Login-sida */
 
 #login-form {
   align-items: center;
@@ -190,44 +237,7 @@ label {
   top: 5px;
 }
 
-.cirkel-div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 10px;
-  margin-top: 50px;
-}
-
-.cirkel {
-  background-color: #dd5353;
-  height: 200px;
-  width: 200px;
-  border: 3px solid #dd5353;
-  border-radius: 200px 200px;
-  margin: 50px;
-  margin-top: 50px;
-}
-
-.mat-text {
-  font-size: 20px;
-  font-family: "Unbounded";
-  position: absolute;
-  left: 700px;
-}
-
-#matlagning {
-  left: 545px;
-}
-
-#bakning {
-  left: 875px;
-}
-
-#food {
-  height: 100%;
-  width: 100%;
-  border-radius: 200px 200px;
-}
+/* Matrecept och Bakrecept */
 
 #innehållsförteckning {
   border: 3px solid black;
@@ -317,6 +327,8 @@ li {
   margin-top: 10px;
   display: block;
 }
+
+/* Media quaruiuereiuries */
 
 @media screen and (max-width: 820px) {
   .recept-div {
@@ -415,5 +427,88 @@ li {
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
+  #logo {
+    width: 45%;
+  }
+
+  #logo-text {
+    font-size: 120%;
+    margin-left: 0px;
+  }
+
+  #slogan {
+    font-size: 80%;
+    position: relative;
+    left: 2%;
+  }
+
+  .login-div {
+    width: 19%;
+    margin: 3px;
+    display: flex;
+    margin-right: 1px;
+  }
+
+  .hem {
+    right: 26%;
+    width: 23%;
+  }
+
+  .login-text {
+    font-size: 80%;
+  }
+
+  #footer-id {
+    height: 30%;
+  }
+
+  .kontakt-text {
+    font-size: 60%;
+  }
+
+  .fa-brands {
+    font-size: 300%;
+  }
+
+  .cirkel {
+    height: 90px;
+    width: 90px;
+    border-radius: 90px 90px;
+  }
+
+  #food {
+    height: 100%;
+    width: 100%;
+    border-radius: 90px 90px;
+  }
+
+  #matlagning {
+    left: 8%;
+  }
+
+  #login-form {
+    left: 0;
+    margin: 0;
+    height: 400px;
+    background-color: #fffcf9;
+    border: none;
+  }
+
+  .fa-solid {
+    color: #dd5353;
+  }
+
+  .button {
+    border: 1px solid #dd5353;
+  }
+
+  #innehållsförteckning {
+    width: 90%;
+    left: 4%;
+  }
+
+  .till-topp {
+    font-size: 20px;
+  }
 }
